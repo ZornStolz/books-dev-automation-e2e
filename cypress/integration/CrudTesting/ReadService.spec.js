@@ -1,6 +1,6 @@
 const uri = 'localhost:4200/dashboard';
 
-describe ('Check if the  aplication is loaded properly', () => {
+describe ('Check if the aplication is loaded properly', () => {
     before(() => {
         //Arrange
         cy.visit(uri)
