@@ -10,9 +10,9 @@ describe ('Check if the aplication is loaded properly', () => {
         
         //Act
         let back = 'http://localhost:8080/books'
-        cy.request('GET', back).then ((res) => {
+        cy.request('GET', back).then ((xhr) => {
             //Assert
-            expect(res.status).to.equal(200)
+            expect(xhr.status).to.equal(200)
         })
     })
 
