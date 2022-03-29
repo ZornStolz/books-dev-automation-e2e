@@ -14,6 +14,7 @@
 ### *Update service*
 
 - A book to test is added, then the book is modified. If the book modified name is found then everything is okay. Later the test book is deleted.
+- Update a book with blank spaces Should not be possible.
 
 ### *Delete service*
 
