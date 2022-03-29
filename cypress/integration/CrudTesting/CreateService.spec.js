@@ -30,9 +30,23 @@ describe('Given I want to add a book', () => {
 
         //Assert
         cy.contains(testName).should('exist')
+
+        //Delete tracks
+        //cy.request('DELETE', `${back}/${bookId}`)
     })
 
     after(() => {
         cy.request('DELETE', `${back}/${bookId}`)
     })
+
+    //it.only('Change my mind and want to close the modal without the button', () =>{
+    //    cy.get('.ant-modal-close-x').click()
+    //    cy.get('.ant-modal-close-x').click().should('to.be.undefined')
+    //    expect($el).to.have.html('cdk-global-scrollblock')
+    //})
+//
+    //it('Change my mind and want to close the modal with cancel button', () =>{
+    //    cy.contains('Cancel').click()
+    //    cy.get('.ant-modal-close-x').click().should('to.be.undefined')
+    //})
 })
