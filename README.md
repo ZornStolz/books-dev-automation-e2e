@@ -18,3 +18,4 @@
 ### *Delete service*
 
 - A book to test is added, then the book is deleted. If the book is not found then everything is okay.
+- five test books are added, then the books are deleted. If no book is found then everything is okay.
