@@ -33,7 +33,7 @@ describe('Given I want to update a book', () => {
               //grabs the element at the index
               cy.get("td:nth-child(2)").eq(index);
               //selects the edit
-              cy.get("button").eq(index + 1).click();    
+              cy.get("button").eq(index + 2).click();    
             }
         })
         
